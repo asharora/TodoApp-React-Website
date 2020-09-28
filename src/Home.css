@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Secular+One&display=swap');
+#App{
+  background: linear-gradient(517deg, #e8175d 50%, #363636 50%);
+  background-repeat: no-repeat;
+ background-size: auto;
+ background-size: cover;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.heading1{
+  font-size: 5rem;
+    position: absolute;
+    left: 11%;
+    top: 33%;
+    font-family: 'Bangers', cursive;
+    color: white; 
+}
+
+.heading2{
+  font-size: 5rem;
+    position: absolute;
+    right: 11%;
+    bottom: 19%;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Bangers', cursive;
+    color: white; 
+    
+
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#TODO-LIST{background-color: #a8a7a7;
+  padding: 5px;
+  width: 20%;
+  height: 70vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 50px;
+}
+
+h1{
+  text-align: center;
+  background-color: #474747;
+  color:white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+}
+
+#input{
+  text-align: center;
+  border-radius: 2px;
+  border-color: transparent;
+  height: 4vh;}
+
+#name-with-search{
+  display: flex;
+  margin-top: 20px;
+}
+
+#Search{
+  padding-left: 10px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+li{    text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: le;
+  padding-left: 9px;
+  color: white;
+}
+
+#items{
+  width: 240px;
+    height: 29px;
+    display: flex;
+    margin: 10px;
+    background-color: #474747;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#delete{display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#delete:hover{
+  color: red;
+}
+
+
