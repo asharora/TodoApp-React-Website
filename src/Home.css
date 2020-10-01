@@ -1,111 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Secular+One&display=swap');
-#App{
-  background: linear-gradient(517deg, #e8175d 50%, #363636 50%);
-  background-repeat: no-repeat;
- background-size: auto;
- background-size: cover;
-  height: 100vh;
-  width: 100%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  
-}
-
-.heading1{
-  font-size: 5rem;
-    position: absolute;
-    left: 11%;
-    top: 33%;
-    font-family: 'Bangers', cursive;
-    color: white; 
-}
-
-.heading2{
-  font-size: 5rem;
-    position: absolute;
-    right: 11%;
-    bottom: 19%;
-    font-family: 'Secular One', sans-serif;
-    font-family: 'Bangers', cursive;
-    color: white; 
-    
-
-}
-
 *{
-  margin: 0px;
-  padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
-#TODO-LIST{background-color: #a8a7a7;
-  padding: 5px;
-  width: 20%;
-  height: 70vh;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  border-color: black;
-  border-width: 50px;
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@100&family=Rubik:wght@500&display=swap');
+
+
+
+#page{
+    background-color: yellow;
+    align-items: center;
+    height: 100vh;
+    width: 100wh;
 }
 
-h1{
-  text-align: center;
-  background-color: #474747;
-  color:white;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  width: 100%;
+img{
+    height: 150%;
+    aspect-ratio: 3;
+}
+#navbar{
+    height: 10vh;
+   
+    /* background-color: #560219; */
+    padding-left: 18px;
+    padding-right: 18px;
 }
 
-#input{
-  text-align: center;
-  border-radius: 2px;
-  border-color: transparent;
-  height: 4vh;}
-
-#name-with-search{
-  display: flex;
-  margin-top: 20px;
+ul{  
+       display: flex;
+    float: right;
+    margin-top: 1%;
 }
 
-#Search{
-  padding-left: 10px;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  display: flex;
+a{
+    padding-right: 3%;
+    color: white;
+    
+    text-decoration: none;
+
 }
 
-li{    text-decoration: none;
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: le;
-  padding-left: 9px;
-  color: white;
+a:hover{
+    padding-right: 3%;
+    color: pink;
+    
+    text-decoration: none;
+
 }
 
-#items{
-  width: 240px;
-    height: 29px;
-    display: flex;
-    margin: 10px;
-    background-color: #474747;
-    padding: 8px;
+.lis{
+    margin-right: 20px;
+    padding: 3px;
+    color: white;
+    font-family: 'Grandstander', cursive;    
+    text-decoration: none;
+
+}
+
+.lis:hover{
+    margin-right: 20px;
+    padding: 3px;
+    color: #560219;
+    background-color: white;
+    font-family: 'Grandstander', cursive;    
+    text-decoration: none;
     border-radius: 10px;
 }
 
-#delete{display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
+li{
+margin-right: 40px;;
 }
 
-#delete:hover{
-  color: red;
+#get_started{
+    height: 93vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
 }
 
+#links{
+    background-color: rgb(173, 173, 175);
+    width: 10wh;
+    /* height: 4vh;
+    
+    padding: 8px;
+    border-radius: 10px; */
+}
 
+#todo-title{
+    font-size: 3rem;
+    margin-bottom: 30px;
+    background-color: transparent;
+
+}
+button{
+
+    padding: 10px;
+    background-color: #560219;
+    border-radius: 20px;
+    width: 10%;
+    border-color: white;
+    font-family: 'Grandstander', cursive;    
+    
+}

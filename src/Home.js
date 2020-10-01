@@ -1,53 +1,44 @@
-import React,{useState} from 'react';
+import React, { Component,useState } from 'react';
+import {Link} from 'react-router-dom';
 import './Home.css';
-import { BsSearch } from 'react-icons/bs';
-import {AiOutlineCloseCircle} from 'react-icons/ai';
+
+
 function Home() {
-  
-  const [inputlist,setinputlist]=useState("");
-  const [todolist,settodolist]=useState([]);
-  
-  const updateInput=(event)=>{
-    setinputlist(event.target.value);
-  };
-
-  const additionInput=()=>{
-    var data=inputlist;
-    settodolist((olditems)=>{
-      return [...olditems,inputlist];
-    });
-   
-  };
-
-  const deletionInput=(index)=>{
-  
-
-     console.log(todolist);
+    var i = 0;
+    var color = ["https://www.weekendnotes.com/im/000/00/the-todo-game11.JPG", "blue", "brown", "green"];
+    const [bgcolor,setbgcolor]=useState(color[0]);
     
-     settodolist(todolist.filter((arraye,idx)=>{
-       return index!==idx;
-     }));
-    };
-  return (
-    <div id="App">
-      <div className="heading1">TODO</div>
-      <div className="heading2">LIST</div>
-      <div id="TODO-LIST">
-      <h1>TODO LIST</h1>
-      <div id="name-with-search">
-        <input name="todo_name" placeholder="Add the TODO" onChange={updateInput} id="input"/>
-        <div id="Search" onClick={additionInput}><BsSearch /></div>
-      </div>
-      <div>
-        {todolist.map((item,idx)=>{
-           return <div id="items">    
-              <div id="delete" onClick={()=>{deletionInput(idx)}}><AiOutlineCloseCircle/></div><li key={item.uid}>{item}</li> </div>;
-        })}  
-      </div>
-
-      </div>
-    </div>
-  );
+    function change() {
+    console.log('old i = ${i}',i);
+    //var doc = document.getElementById("background");
+    setbgcolor(color[i]);
+    i = (i + 1) %4 ;
+    console.log('new  i = ${i}',i);
+    }
+    //setInterval(change, 5000);
+    
+    return (
+       <div id="page" style={{backgroundImage:"url(https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/pages/gx/main/gx__vid-cover--gx@2x.55059b0a2f78.jpg)",backgroundRepeat:"no-repeat", backgroundSize:"cover",}}>
+           <div>
+           <nav id="navbar">
+               <img src={require("../src/logo.png")} />
+               <ul>
+                   <li><a class="lis" href="/">Home</a></li>
+                   <li><a class="lis" href="/Todo">Todo</a></li>
+                   <li><a class="lis" href="/Contact">Contact</a></li>
+                   <li><a class="lis" href="/About_us">About Us</a></li>
+                      
+                </ul>
+           </nav>
+           </div>
+            <div id="get_started">
+            <h1 id="todo-title">Welcome to Todo App</h1>
+            <button><a href="/Todo">Get Started</a></button>
+        
+            </div>
+          </div>
+        )
 }
+
 
 export default Home;
