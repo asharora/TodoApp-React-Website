@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/TodoApp-React-Website/static/css/main.a99ac61d.chunk.css",
-    "main.js": "/TodoApp-React-Website/static/js/main.b0d6ee8f.chunk.js",
-    "main.js.map": "/TodoApp-React-Website/static/js/main.b0d6ee8f.chunk.js.map",
+    "main.css": "/TodoApp-React-Website/static/css/main.b0ec2707.chunk.css",
+    "main.js": "/TodoApp-React-Website/static/js/main.81c17d49.chunk.js",
+    "main.js.map": "/TodoApp-React-Website/static/js/main.81c17d49.chunk.js.map",
     "runtime-main.js": "/TodoApp-React-Website/static/js/runtime-main.9a944e6f.js",
     "runtime-main.js.map": "/TodoApp-React-Website/static/js/runtime-main.9a944e6f.js.map",
-    "static/js/2.e31d5c72.chunk.js": "/TodoApp-React-Website/static/js/2.e31d5c72.chunk.js",
-    "static/js/2.e31d5c72.chunk.js.map": "/TodoApp-React-Website/static/js/2.e31d5c72.chunk.js.map",
+    "static/js/2.f43b5cad.chunk.js": "/TodoApp-React-Website/static/js/2.f43b5cad.chunk.js",
+    "static/js/2.f43b5cad.chunk.js.map": "/TodoApp-React-Website/static/js/2.f43b5cad.chunk.js.map",
     "index.html": "/TodoApp-React-Website/index.html",
-    "precache-manifest.9e56da80234d306974bc40e1ac825e8f.js": "/TodoApp-React-Website/precache-manifest.9e56da80234d306974bc40e1ac825e8f.js",
+    "precache-manifest.749a1df8da34d2fb626d19d2d93c83e2.js": "/TodoApp-React-Website/precache-manifest.749a1df8da34d2fb626d19d2d93c83e2.js",
     "service-worker.js": "/TodoApp-React-Website/service-worker.js",
-    "static/css/main.a99ac61d.chunk.css.map": "/TodoApp-React-Website/static/css/main.a99ac61d.chunk.css.map",
-    "static/js/2.e31d5c72.chunk.js.LICENSE.txt": "/TodoApp-React-Website/static/js/2.e31d5c72.chunk.js.LICENSE.txt"
+    "static/css/main.b0ec2707.chunk.css.map": "/TodoApp-React-Website/static/css/main.b0ec2707.chunk.css.map",
+    "static/js/2.f43b5cad.chunk.js.LICENSE.txt": "/TodoApp-React-Website/static/js/2.f43b5cad.chunk.js.LICENSE.txt",
+    "static/media/Profile.jpeg": "/TodoApp-React-Website/static/media/Profile.212678bd.jpeg",
+    "static/media/logo.png": "/TodoApp-React-Website/static/media/logo.eabad32b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9a944e6f.js",
-    "static/js/2.e31d5c72.chunk.js",
-    "static/css/main.a99ac61d.chunk.css",
-    "static/js/main.b0d6ee8f.chunk.js"
+    "static/js/2.f43b5cad.chunk.js",
+    "static/css/main.b0ec2707.chunk.css",
+    "static/js/main.81c17d49.chunk.js"
   ]
 }
